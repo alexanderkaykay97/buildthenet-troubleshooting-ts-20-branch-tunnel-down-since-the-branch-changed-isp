@@ -1,0 +1,23 @@
+Current configuration : 1842 bytes
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+hostname Branch-Gateway
+!
+interface GigabitEthernet0/1
+ no shutdown
+ ip address 198.51.100.2 255.255.255.252
+!
+interface GigabitEthernet0/0
+ no shutdown
+ ip address 192.168.2.1 255.255.255.0
+!
+interface Tunnel0
+ no shutdown
+ ip address 172.16.0.2 255.255.255.252
+ tunnel source 198.51.100.2
+ tunnel destination 203.0.113.1
+ tunnel mode gre ip
+ip route 0.0.0.0 0.0.0.0 198.51.100.1
+ip route 192.168.1.0 255.255.255.0 172.16.0.1
+end

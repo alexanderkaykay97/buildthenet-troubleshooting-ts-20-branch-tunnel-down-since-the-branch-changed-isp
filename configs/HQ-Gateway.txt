@@ -1,0 +1,23 @@
+Current configuration : 1842 bytes
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+hostname HQ-Gateway
+!
+interface GigabitEthernet0/0
+ no shutdown
+ ip address 192.168.1.1 255.255.255.0
+!
+interface GigabitEthernet0/1
+ no shutdown
+ ip address 203.0.113.1 255.255.255.252
+!
+interface Tunnel0
+ no shutdown
+ ip address 172.16.0.1 255.255.255.252
+ tunnel source 203.0.113.1
+ tunnel destination 198.51.100.2
+ tunnel mode gre ip
+ip route 0.0.0.0 0.0.0.0 203.0.113.2
+ip route 192.168.2.0 255.255.255.0 172.16.0.2
+end

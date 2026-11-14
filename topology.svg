@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1053" height="186" viewBox="0 0 1053 186" role="img" aria-label="Topology: Troubleshooting #20: Branch Tunnel Down Since the Branch Changed ISP">
+<title>Topology: Troubleshooting #20: Branch Tunnel Down Since the Branch Changed ISP</title>
+<style>
+svg{color-scheme:light dark}
+.bg{fill:Canvas}
+.ln{stroke:CanvasText;stroke-opacity:.55;stroke-width:1.5}
+.ln.down{stroke-dasharray:5 4}
+.dev{fill:Canvas;stroke:CanvasText;stroke-width:1.5}
+.t{fill:CanvasText;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+.h{font-size:15px;font-weight:700}
+.lbl{font-size:13px;font-weight:600}
+.sub{font-size:10px;opacity:.65;letter-spacing:.06em}
+.port{font-size:9.5px;opacity:.85;paint-order:stroke;stroke:Canvas;stroke-width:3px;stroke-linejoin:round}
+</style>
+<rect class="bg" fill="none" x="0" y="0" width="1053" height="186"/>
+<text class="t h" x="48" y="40">Troubleshooting #20: Branch Tunnel Down Since the Branch Changed ISP</text>
+<line class="ln" stroke="currentColor" x1="114.0" y1="115.0" x2="265.8" y2="115.0"/>
+<line class="ln" stroke="currentColor" x1="265.8" y1="115.0" x2="482.7" y2="115.0"/>
+<line class="ln" stroke="currentColor" x1="482.7" y1="115.0" x2="786.3" y2="115.0"/>
+<line class="ln" stroke="currentColor" x1="786.3" y1="115.0" x2="938.1" y2="115.0"/>
+<text class="t port" text-anchor="middle" x="177.8" y="118.0">Fa0</text>
+<text class="t port" text-anchor="middle" x="202.0" y="118.0">Gi0/0</text>
+<text class="t port" text-anchor="middle" x="347.6" y="118.0">Gi0/1</text>
+<text class="t port" text-anchor="middle" x="400.8" y="118.0">Gi0/0</text>
+<text class="t port" text-anchor="middle" x="564.5" y="118.0">Gi0/1</text>
+<text class="t port" text-anchor="middle" x="704.4" y="118.0">Gi0/1</text>
+<text class="t port" text-anchor="middle" x="850.0" y="118.0">Gi0/0</text>
+<text class="t port" text-anchor="middle" x="874.3" y="118.0">Fa0</text>
+<rect class="dev" fill="none" stroke="currentColor" rx="8" x="48.0" y="92.0" width="132" height="46"/>
+<text class="t lbl" text-anchor="middle" x="114.0" y="113.0">HQ-Files</text>
+<text class="t sub" text-anchor="middle" x="114.0" y="128.0">SERVER</text>
+<rect class="dev" fill="none" stroke="currentColor" rx="8" x="199.8" y="92.0" width="132" height="46"/>
+<text class="t lbl" text-anchor="middle" x="265.8" y="113.0">HQ-Gateway</text>
+<text class="t sub" text-anchor="middle" x="265.8" y="128.0">ROUTER</text>
+<rect class="dev" fill="none" stroke="currentColor" rx="8" x="416.7" y="92.0" width="132" height="46"/>
+<text class="t lbl" text-anchor="middle" x="482.7" y="113.0">Internet</text>
+<text class="t sub" text-anchor="middle" x="482.7" y="128.0">ROUTER</text>
+<rect class="dev" fill="none" stroke="currentColor" rx="8" x="720.3" y="92.0" width="132" height="46"/>
+<text class="t lbl" text-anchor="middle" x="786.3" y="113.0">Branch-Gateway</text>
+<text class="t sub" text-anchor="middle" x="786.3" y="128.0">ROUTER</text>
+<rect class="dev" fill="none" stroke="currentColor" rx="8" x="872.1" y="92.0" width="132" height="46"/>
+<text class="t lbl" text-anchor="middle" x="938.1" y="113.0">Branch-PC</text>
+<text class="t sub" text-anchor="middle" x="938.1" y="128.0">PC</text>
+</svg>
