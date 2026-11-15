@@ -2,9 +2,9 @@
 
 _Level: Hard — BuildTheNet 3D Sandbox troubleshooting — Tunnels_
 
-**Status: Verified.** Completed on 2026-11-14; every requirement was machine-checked against the network built in BuildTheNet and passed.
+**Status: Verified.** Completed on 2026-11-15; every requirement was machine-checked against the network built in BuildTheNet and passed.
 
-Snapshot taken 2026-11-14. Built in a simulation — no physical or production equipment was involved.
+Snapshot taken 2026-11-15. Built in a simulation — no physical or production equipment was involved.
 
 ## The ticket
 
